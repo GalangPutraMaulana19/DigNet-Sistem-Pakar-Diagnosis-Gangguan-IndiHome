@@ -1,0 +1,6 @@
+{
+  "name": "DigNet — Sistem Pakar Diagnosis Gangguan IndiHome",
+  "description": "Sistem pakar berbasis Forward Chaining dan Certainty Factor untuk mendiagnosis gangguan layanan IndiHome (FTTH, ONT, ODP, STB UseeTV, dan Telepon) selama masa retensi 60 hari.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
