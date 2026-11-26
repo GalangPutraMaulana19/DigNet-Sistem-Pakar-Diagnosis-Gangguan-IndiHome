@@ -4,6 +4,7 @@
 ![React](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=flat-square&logo=tailwindcss)
+![License: MIT](https://img.shields.io/badge/License-MIT-16A34A?style=flat-square)
 
 **DigNet** adalah aplikasi web sistem pakar untuk membantu teknisi provisioning mendiagnosis gangguan layanan **IndiHome (FTTH, ONT, ODP, STB UseeTV, dan Telepon)** secara cepat, konsisten, dan terukur selama masa retensi 60 hari.
 
@@ -201,4 +202,4 @@ Aplikasi ini telah dikonfigurasi dengan `output: 'standalone'` pada `next.config
 
 ## Lisensi
 
-Proyek ini dikembangkan untuk keperluan akademik (Tugas Akhir / Skripsi) dan alat bantu teknis diagnosis gangguan IndiHome. Silakan cantumkan atribusi apabila menggunakan atau memodifikasi kode ini.
+Proyek ini dirilis secara *open source* di bawah **[MIT License](LICENSE)** — bebas digunakan, dimodifikasi, dan didistribusikan kembali oleh siapa saja dengan tetap menyertakan catatan hak cipta dan lisensi asli.
