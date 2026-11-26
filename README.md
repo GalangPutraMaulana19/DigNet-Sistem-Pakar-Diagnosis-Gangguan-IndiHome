@@ -11,6 +11,22 @@ Versi ini merupakan hasil pembangunan ulang (*rebuild*) dari versi PHP/MySQL seb
 
 ---
 
+## Tampilan Aplikasi
+
+### Beranda & Ringkasan Basis Pengetahuan
+![Beranda DigNet](docs/screenshots/beranda.png)
+
+### Hasil Diagnosis & Rekomendasi SOP
+![Hasil Diagnosis Certainty Factor](docs/screenshots/hasil-diagnosa.png)
+
+### Keterangan & Referensi Gangguan FTTH
+![Keterangan dan SOP IndiHome](docs/screenshots/keterangan-sop.png)
+
+### Panel Admin Pakar
+![Dashboard Admin Pakar](docs/screenshots/admin-dashboard.png)
+
+---
+
 ## Latar Belakang
 
 Layanan triple play IndiHome memadukan akses internet berbasis *Fiber to the Home* (FTTH), layanan TV interaktif melalui *Set-Top Box* (STB), dan telepon rumah. Di lapangan (termasuk wilayah Witel Bekasi bersama mitra pelaksana Telkom Akses), proses diagnosis gangguan masih kerap bergantung pada pengalaman individu teknisi sehingga berpotensi memperpanjang *Mean Time to Repair* (MTTR) dan meningkatkan kunjungan ulang (*revisit*) selama masa retensi 60 hari.
@@ -117,6 +133,7 @@ DigNet menerapkan **Forward Chaining** untuk menelusuri seluruh aturan yang coco
 │   ├── cf-engine.ts               # Mesin inferensi Forward Chaining & Certainty Factor murni
 │   ├── cf-engine.test.ts          # Unit test mesin inferensi (node:test)
 │   └── store.tsx                  # State management & persistensi localStorage (SSR-safe)
+├── docs/screenshots/              # Tangkapan layar tampilan aplikasi untuk README
 └── src/assets/images/             # Aset gambar teknis FTTH IndiHome
 ```
 
